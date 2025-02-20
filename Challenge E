@@ -1,0 +1,42 @@
+# Welcome to Sonic Pi
+# Challenge E
+use_bpm 180
+use_synth :chipbass
+
+# VARIABLES TO STORE SAMPLES
+
+sample "C:/Users/sebastian_camacho/Downloads/mario_sounds/mario_sounds/mario_sounds/mario_intro.wav"
+
+
+sleep 8
+# INTRO
+play :e4
+sleep 0.5
+play :e4
+sleep 1
+play :e4
+sleep 1
+play :c4
+sleep 0.5
+play :e4
+sleep 1
+play :g4
+sleep 2
+play :g3
+sleep 2
+
+
+# CUSTOM MARIO SAMPLES HERE
+sample :bass_dnb_f
+sleep 2
+
+sample :bd_sone
+sleep 2
+
+sample :drum_cymbal_hard
+sleep 2
+
+sample :elec_bell
+sleep 2
+
+sample "C:/Users/sebastian_camacho/Documents/Audacity/Super Mario Bros. - Mushroom Sound Effect_new.wav"
