@@ -7,8 +7,12 @@ i = 0
 
 live_loop :main_theme do
   with_fx :distortion do
-    play notes[i]
-    sleep 0.5
-    i = i + 1
+    8.times do
+      play notes[i]
+      sleep 0.5
+      i = i + 1
+      print i
+    end
+    i = 0
   end
 end
